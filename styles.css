@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #ffe6f2;
+    color: #d63384;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#yes {
+    background-color: #ff4da6;
+    color: white;
+}
+
+#no {
+    background-color: #999;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#celebration, #sadMessage {
+    margin-top: 50px;
+}
+
+.flowers {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.sparkles {
+    width: 100%;
+    height: 200px;
+    background: url('brillos.gif') center/cover;
+}
